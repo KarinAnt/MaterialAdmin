@@ -1,0 +1,43 @@
+.imgUser{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.imgTwitter{
+    width: 20px;
+    height: 20px;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.user p:nth-child(1){
+    font-weight: bold;
+}
+.user p{
+    margin-left: 20px;
+}
+.user>div{
+    display: flex;
+    align-items: center;
+}
+.menuser>p{
+    padding: 10px;
+}
+.userEnd{
+    padding:2% 5%;
+    width: 90%;
+    background-color: #0057FF;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-top:30px;
+}
+.userEnd p:nth-child(1){
+    font-size: 13px;  
+}
+.userEnd p{
+    line-height: 0px;
+}

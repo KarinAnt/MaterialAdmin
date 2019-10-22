@@ -1,0 +1,19 @@
+.download{
+    width: 90%;
+    box-shadow: 1px 1px 15px 1px silver;
+    margin:50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.downButt1{
+    border:3px solid #00a9f4;
+    color:#00a9f4;
+    margin-right: 20px;
+}
+.downButt2{
+    background-color: #00a9f4;
+    color:white;
+    border:3px solid #00a9f4;
+}

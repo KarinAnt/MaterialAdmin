@@ -1,0 +1,17 @@
+<div class="section">
+    <div class="pages">
+        <app-menu class=""
+                [bodyPage]="bo" 
+                *ngFor="let bo of bodyArray">
+        </app-menu> 
+    </div>
+    <app-aside></app-aside>
+</div>
+<div class="section">
+    <app-user></app-user>
+    <app-graf></app-graf> 
+</div>
+<div class="section">
+    <app-table></app-table>
+</div>
+<app-footer></app-footer>

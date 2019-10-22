@@ -1,0 +1,80 @@
+.example-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .example-sidenav-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .example-sidenav {
+    width:17%;
+  }
+  .header{
+    background-color: #00aaff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.19)
+}
+i{
+    color: white;
+    margin-right: 20px;
+}
+.header>div:nth-child(1){
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header input{
+    margin-left: 20px;
+    width: 80%;
+    outline: none;
+    border: 1px solid #0097db;
+    background-color: #0097db;
+    height: 30px;
+    padding: 5px 20px;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+}
+input::placeholder{
+    color:white;
+}
+.menuicon{
+  cursor: pointer;
+}
+.logo{
+  padding: 14px;
+  border-bottom: 1px solid silver;
+  text-align: center;
+}
+.logo>img{
+  width: 80%;
+}
+.appMenu{
+  padding: 20px;
+}
+.menuArray{
+  padding: 20px 25px;
+}
+.meinbutton{
+  width: 90%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 15px 0;
+  background-image: url(/assets/bg_profile.jpg);
+  margin-left:15px;
+}
+/* @media (min-width:0px) and (max-width:800px){
+  .example-sidenav {
+    width:30%;
+  }
+} */

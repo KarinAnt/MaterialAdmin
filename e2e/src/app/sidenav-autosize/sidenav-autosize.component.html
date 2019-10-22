@@ -1,0 +1,30 @@
+<mat-drawer-container class="example-container" autosize>
+    <mat-drawer #drawer class="example-sidenav" mode="side">
+      <div class="menu">
+          <div class="logo">
+              <img src="/assets/logo.svg" alt="">
+          </div>
+          <div class="menuArray">
+              <app-mein
+                      [menuPage]="me" 
+                      *ngFor="let me of menuArray">
+              </app-mein>
+          </div>
+          <button class="meinbutton">UPGRADE TO PRO</button>
+      </div>
+    </mat-drawer>
+    <div class="header">
+        <div>
+            <i class="material-icons menuicon" (click)="drawer.toggle()" >menu</i>          
+            <input type="text" placeholder="Search anything...">
+        </div>   
+        <div>
+            <i class="material-icons">notifications</i>
+            <i class="material-icons">dashboard</i>
+            <i class="material-icons">more_vert</i>
+        </div>
+    </div>  
+    <app-download></app-download>
+    <app-section></app-section>
+  </mat-drawer-container>
+  

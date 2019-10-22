@@ -1,0 +1,46 @@
+.section{
+    width: 90%;
+    margin:50px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.pages{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+app-menu, app-user, app-graf, app-table{
+    box-shadow: 1px 1px 15px 1px silver;
+    margin-bottom: 10px;
+}
+app-menu{
+    width:47%;
+}
+app-aside{
+    width: 28%;
+    box-shadow: 1px 1px 15px 1px silver;
+}
+app-user{
+    width: 33%;
+}
+app-graf{
+    width: 63%;
+}
+app-table{
+    width: 100%;
+}
+app-footer{
+    box-shadow: 1px 1px 1px 1px silver;
+    width: 100%;
+}
+@media (min-width:0px) and (max-width:800px){
+    app-menu{
+        width: 100%;
+    }
+    .pages,app-aside,app-user,app-graf{
+        width: 100%;
+    }
+
+}
