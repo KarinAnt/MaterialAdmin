@@ -4,14 +4,11 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatButtonModule} from '@angular/material/button';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatIconModule} from '@angular/material/icon'
-<<<<<<< HEAD
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatSelectModule} from '@angular/material/select';
 import {MatInputModule} from '@angular/material';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatRadioModule} from '@angular/material/radio';
-=======
->>>>>>> 67047d47cb4ee2499731344f1de13167f8fb01b8
 
 import { AppComponent } from './app.component';
 import { SidenavAutosizeComponent } from './sidenav-autosize/sidenav-autosize.component';
@@ -25,15 +22,12 @@ import { UserComponent } from './user/user.component';
 import { GrafComponent } from './graf/graf.component';
 import { TableComponent } from './table/table.component';
 import { FooterComponent } from './footer/footer.component';
-<<<<<<< HEAD
 import { SectionFormsComponent } from './section-forms/section-forms.component';
 import { SwitchComponent } from './switch/switch.component';
 import { SelectMenuComponent } from './select-menu/select-menu.component';
 import { TextFieldComponent } from './text-field/text-field.component';
 import { CheckboxComponent } from './checkbox/checkbox.component';
 import { RadioComponent } from './radio/radio.component';
-=======
->>>>>>> 67047d47cb4ee2499731344f1de13167f8fb01b8
 
 @NgModule({
   declarations: [
@@ -48,15 +42,12 @@ import { RadioComponent } from './radio/radio.component';
     GrafComponent,
     TableComponent,
     FooterComponent,
-<<<<<<< HEAD
     SectionFormsComponent,
     SwitchComponent,
     SelectMenuComponent,
     TextFieldComponent,
     CheckboxComponent,
     RadioComponent,
-=======
->>>>>>> 67047d47cb4ee2499731344f1de13167f8fb01b8
   ],
   imports: [
     BrowserModule,
@@ -64,16 +55,13 @@ import { RadioComponent } from './radio/radio.component';
     BrowserAnimationsModule,
     MatButtonModule,
     MatProgressSpinnerModule,
-<<<<<<< HEAD
     MatIconModule,
     MatSlideToggleModule,
     MatSelectModule,
     MatInputModule,
     MatCheckboxModule,
-    MatRadioModule
-=======
+    MatRadioModule,
     MatIconModule
->>>>>>> 67047d47cb4ee2499731344f1de13167f8fb01b8
   ],
   providers: [],
   bootstrap: [AppComponent]
