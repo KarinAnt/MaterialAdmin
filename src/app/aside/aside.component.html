@@ -1,1 +1,15 @@
-<p>aside works!</p>
+<div class="aside">
+    <h3>Time, Practice</h3>
+    <mat-progress-spinner *ngIf='ShowLoader'
+        class="example-margin"
+        [color]="color"
+        [mode]="mode"
+        [value]="value">
+    </mat-progress-spinner>
+    <div class="asideIcon">
+        <mat-icon>store</mat-icon>
+        <mat-icon> phone</mat-icon>
+        <mat-icon>device_hub</mat-icon>
+        <mat-icon>autorenew</mat-icon>
+    </div>
+</div>

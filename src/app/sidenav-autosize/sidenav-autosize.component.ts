@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sidenav-autosize.component.css']
 })
 export class SidenavAutosizeComponent implements OnInit {
-  showFiller = false;
+  showFiller = true;
   menuArray:{name:string, iconName:string}[]=[{
     name: 'Dashboard',
     iconName:'desktop_mac'
