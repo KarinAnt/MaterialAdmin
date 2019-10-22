@@ -1,0 +1,13 @@
+.menuproduct{
+    /* padding: 5px; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.menuproduct:hover{
+    background-color: silver;
+    border-radius: 5px;
+}
+.menuproduct>p{
+    margin-left: 10px;
+}

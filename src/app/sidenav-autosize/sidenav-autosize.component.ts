@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sidenav-autosize.component.css']
 })
 export class SidenavAutosizeComponent implements OnInit {
-  showFiller = false;
+  showFiller = true;
+  public dasAndForm=true;
   menuArray:{name:string, iconName:string}[]=[{
     name: 'Dashboard',
     iconName:'desktop_mac'
@@ -35,7 +36,13 @@ export class SidenavAutosizeComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  dashboardAndForms(elem){
+    if(elem === 'Dashboard'){
+      this.dasAndForm = true;
+    }else if(elem === 'Forms'){
+      this.dasAndForm = false;
+    }
+  }
 }
 
 

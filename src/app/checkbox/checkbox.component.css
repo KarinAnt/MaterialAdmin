@@ -1,0 +1,7 @@
+.colored{
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+mat-checkbox{
+    margin-left:10px;
+}

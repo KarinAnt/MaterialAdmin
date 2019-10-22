@@ -1,0 +1,21 @@
+.sectionForms{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.all{
+    box-shadow: 1px 1px 15px 1px silver;
+    margin:20px 0;
+    padding:20px;
+}
+app-switch, app-select-menu{
+    width: 46%;
+}
+app-text-field, app-checkbox, app-radio{
+    width: 96%;
+}
+app-footer{
+    box-shadow: 1px 1px 1px 1px silver;
+    width: 100%;
+}

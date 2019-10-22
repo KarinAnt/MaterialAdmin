@@ -5,7 +5,7 @@
               <img src="/assets/logo.svg" alt="">
           </div>
           <div class="menuArray">
-              <app-mein class="appMenu"
+              <app-mein (click)="dashboardAndForms(me.name)"
                       [menuPage]="me" 
                       *ngFor="let me of menuArray">
               </app-mein>
@@ -24,7 +24,8 @@
             <i class="material-icons">more_vert</i>
         </div>
     </div>  
-    <app-download></app-download>
-    <app-section></app-section>
+    <app-download *ngIf="dasAndForm"></app-download>
+    <app-section *ngIf="dasAndForm"></app-section>
+    <app-section-forms *ngIf="!dasAndForm"></app-section-forms>
   </mat-drawer-container>
   

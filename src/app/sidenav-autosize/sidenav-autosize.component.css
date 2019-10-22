@@ -61,7 +61,7 @@ input::placeholder{
   padding: 20px;
 }
 .menuArray{
-  padding: 25px;
+  padding: 20px 25px;
 }
 .meinbutton{
   width: 90%;
@@ -73,7 +73,8 @@ input::placeholder{
   background-image: url(/assets/bg_profile.jpg);
   margin-left:15px;
 }
-/* app-section{
-  width: 90%;
-  margin:50px auto;
+/* @media (min-width:0px) and (max-width:800px){
+  .example-sidenav {
+    width:30%;
+  }
 } */
