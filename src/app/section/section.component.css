@@ -1,0 +1,22 @@
+.section{
+    width: 90%;
+    margin:50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.pages{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+app-menu{
+    width:47%;
+    box-shadow: 1px 1px 15px 1px silver;
+    margin-bottom: 10px;
+}
+@media (min-width:0px) and (max-width:800px){
+    app-menu{
+        width: 90%;
+    }
+}

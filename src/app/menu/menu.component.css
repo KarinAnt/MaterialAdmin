@@ -1,0 +1,17 @@
+.icons{
+    padding: 35px;
+    border-radius:5px;
+    color: white;
+    margin-right:10px;
+}
+.product{
+    display: flex;
+    padding: 50px;
+}
+.product>div>p:nth-child(1){
+    font-size: 20px;
+    font-weight: bold;
+}
+.product p{
+    line-height: 10px;
+}
