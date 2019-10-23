@@ -35,7 +35,7 @@ app-footer{
     box-shadow: 1px 1px 1px 1px silver;
     width: 100%;
 }
-@media (min-width:0px) and (max-width:800px){
+@media (min-width:0px) and (max-width:900px){
     app-menu{
         width: 100%;
     }

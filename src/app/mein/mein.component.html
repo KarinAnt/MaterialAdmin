@@ -1,4 +1,4 @@
-<div class="menuproduct">
+<div class="menuproduct" (click)='addClass(menuPage.name)' [ngClass]="{'active':form && !dasForm, 'active2':das && dasForm}">
     <i class="material-icons">{{menuPage.iconName}}</i>
-    <p>{{menuPage.name}}</p>
+    <p class="menuText">{{menuPage.name}}</p>
 </div>

@@ -73,8 +73,10 @@ input::placeholder{
   background-image: url(/assets/bg_profile.jpg);
   margin-left:15px;
 }
-/* @media (min-width:0px) and (max-width:800px){
-  .example-sidenav {
-    width:30%;
+@media (min-width:0px) and (max-width:900px){
+  .meinbutton{
+    font-size: 13px;
+    padding: 5px;
+    margin-left: 5px;
   }
-} */
+}

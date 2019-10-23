@@ -6,6 +6,7 @@
           </div>
           <div class="menuArray">
               <app-mein (click)="dashboardAndForms(me.name)"
+                      [dasForm]="dasAndForm"
                       [menuPage]="me" 
                       *ngFor="let me of menuArray">
               </app-mein>

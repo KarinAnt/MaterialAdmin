@@ -10,7 +10,7 @@
     padding:20px;
 }
 app-switch, app-select-menu{
-    width: 46%;
+    width: 45%;
 }
 app-text-field, app-checkbox, app-radio{
     width: 96%;

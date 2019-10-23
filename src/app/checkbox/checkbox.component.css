@@ -1,7 +1,7 @@
-.colored{
-    border: 2px solid red;
-    box-sizing: border-box;
-}
 mat-checkbox{
     margin-left:10px;
 }
+::ng-deep .border .mat-checkbox-frame {
+    border-color: red;
+    background-color: pink;
+  }
